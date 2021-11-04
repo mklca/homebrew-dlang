@@ -7,6 +7,7 @@ class ServeD < Formula
   license "MIT"
   head "https://github.com/Pure-D/serve-d.git", branch: "master"
 
+  depends_on "dmd" => :build
   depends_on "dub" => :build
   depends_on "ldc" => :build
 
